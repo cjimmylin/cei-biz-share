@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CEI Documents</title>
+<meta name="description" content="The current version of every document in the Center for Ethical Intelligence business-plan set, with the PDFs.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=Source+Sans+3:wght@400;500;600&display=swap">
+<style>
+  /* Layout: a short header, the bound set first, then every document as a card, then the revision history. */
+  :root { --bg: #f7f6f3; --fg: #1d1c1a; --muted: #6b675f; --panel: #ffffff; --line: #dedbd4; --accent: #2f5d7c; --ok: #2b7a4b; --warn: #a3651a; --grid: #ebe8e1;
+          --serif: "Source Serif 4", Georgia, "Times New Roman", serif; --sans: "Source Sans 3", "Segoe UI", Helvetica, Arial, sans-serif; }
+  @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --bg: #171716; --fg: #ecebe6; --muted: #a39f95; --panel: #1f1f1d; --line: #35342f; --accent: #8fb6d2; --ok: #7fc69a; --warn: #e0a861; --grid: #2a2926; color-scheme: dark; } }
+  :root[data-theme="dark"] { --bg: #171716; --fg: #ecebe6; --muted: #a39f95; --panel: #1f1f1d; --line: #35342f; --accent: #8fb6d2; --ok: #7fc69a; --warn: #e0a861; --grid: #2a2926; color-scheme: dark; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--fg); font-family: var(--sans); font-size: 16px; line-height: 1.45; padding-block: 32px 64px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+  .wrap { max-width: 68rem; margin-inline: auto; display: flex; flex-direction: column; gap: 32px; }
+  h1 { font-family: var(--serif); font-weight: 400; font-size: 2rem; margin: 0; text-wrap: balance; }
+  h2 { font-size: 1.15rem; font-weight: 600; margin: 0; }
+  .lede { color: var(--muted); margin: 6px 0 0; max-width: 72ch; }
+  .lede b { color: var(--fg); font-weight: 600; font-variant-numeric: tabular-nums; }
+  .card { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 20px 22px; display: flex; flex-direction: column; gap: 10px; min-width: 0; }
+  .note { color: var(--muted); font-size: .9rem; margin: 0; }
+  .setchart svg { width: 100%; height: auto; display: block; }
+  .filters { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+  .filters button { font: inherit; font-size: .85rem; color: var(--muted); background: transparent; border: 1px solid var(--line); border-radius: 999px; padding: 2px 12px; cursor: pointer; }
+  .filters button[aria-pressed="true"] { color: var(--fg); border-color: var(--fg); }
+  .filters button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 20rem), 1fr)); gap: 14px; }
+  .doc { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 14px 18px; display: flex; flex-direction: column; gap: 6px; min-width: 0; }
+  .doc .top { display: flex; justify-content: space-between; gap: 10px; align-items: baseline; }
+  .doc .name { font-weight: 600; }
+  .doc .kind { font-size: .78rem; color: var(--muted); letter-spacing: .04em; text-transform: uppercase; white-space: nowrap; }
+  .doc .meta { font-size: .85rem; color: var(--muted); display: flex; flex-wrap: wrap; gap: 10px; font-variant-numeric: tabular-nums; }
+  .doc .chg { font-size: .9rem; margin: 0; }
+  .doc .links { display: flex; flex-wrap: wrap; gap: 12px; font-size: .9rem; }
+  a { color: var(--accent); }
+  .chip { display: inline-block; font-size: .78rem; border-radius: 999px; padding: 1px 9px; border: 1px solid var(--line); color: var(--muted); white-space: nowrap; }
+  .chip.ok { color: var(--ok); border-color: currentColor; }
+  .chip.warn { color: var(--warn); border-color: currentColor; }
+  .round { display: grid; grid-template-columns: 8rem 1fr; gap: 16px; padding: 10px 0; border-top: 1px solid var(--line); }
+  .round:first-child { border-top: 0; }
+  .round .when { font-variant-numeric: tabular-nums; color: var(--muted); font-size: .85rem; padding-top: 2px; }
+  .round .title { font-weight: 600; }
+  .round p { margin: 2px 0 0; font-size: .9rem; }
+  .round .docs { color: var(--muted); }
+  footer { color: var(--muted); font-size: .85rem; }
+  @media (max-width: 480px) { .round { grid-template-columns: 1fr; gap: 2px; } h1 { font-size: 1.6rem; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>CEI Documents</h1>
+    <p class="lede">The current version of every document in the Center for Ethical Intelligence business-plan set, and what changed last. <b id="ndocs">—</b> documents are tracked; the bound set of six runs <b id="setpages">—</b> pages and was last re-bound on <b id="latest">—</b>. PDF links open copies hosted with this page; live-doc and repository links need their own access.</p>
+  </header>
+
+  <section class="card" id="the-set">
+    <h2>The bound set, in print order</h2>
+    <p class="note">Each document starts on a right-hand page when printed double-sided; the bar shows its length and the label its start page in the set.</p>
+    <div class="setchart" id="setchart"></div>
+    <p>Open or print the whole set: <a id="setlink" href="#">—</a></p>
+  </section>
+
+  <section id="every-document" style="display:flex;flex-direction:column;gap:12px">
+    <h2>Every document</h2>
+    <div class="filters" role="group" aria-label="Show">
+      <span class="note">Show</span>
+      <button type="button" data-filter="all" aria-pressed="true">All</button>
+      <button type="button" data-filter="set" aria-pressed="false">In the bound set</button>
+      <button type="button" data-filter="Plan" aria-pressed="false">Plans</button>
+      <button type="button" data-filter="Charter" aria-pressed="false">Charters</button>
+      <button type="button" data-filter="Internal" aria-pressed="false">Internal</button>
+    </div>
+    <div class="grid" id="cards"></div>
+  </section>
+
+  <section class="card" id="history">
+    <h2>How the set got here</h2>
+    <p class="note">Each round of review or decision, newest first, and the documents it touched.</p>
+    <div id="rounds"></div>
+  </section>
+
+  <footer>Center for Ethical Intelligence · generated from the repository on <span id="generated">—</span>. Private working documents; please do not forward.</footer>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<script>
+const DATA = {"documents": [{"id": "plan", "order": 1, "name": "General business plan 2027\u20132029", "kind": "Plan", "audience": "Board candidates and funders", "in_set": "Yes", "set_start": 3, "pages": 67, "words": 18382, "revised": "2026-11-03", "revision": "Nov 1\u20133 answers: no board faith test, independence adopted, $7K awarded not received, founding year, IRB open", "live": "https://claude.ai/artifact/3zMEdHBe8wcpPRxjWDm28B", "pdf": "pdf/01-business-plan.pdf", "markdown": "https://github.com/cjimmylin/cei-biz/blob/claude/awesome-maxwell-y4nc45/plan/BUSINESS-PLAN-2027-2029.md", "status": "Current"}, {"id": "technical", "order": 2, "name": "Technical brief", "kind": "Plan", "audience": "AI labs and safety researchers", "in_set": "Yes", "set_start": 71, "pages": 32, "words": 9246, "revised": "2026-11-03", "revision": "Council round: say\u2013do operationalized, judge rules at \u03b1 0.80, drafting disclosure, illustrative items; Nov 3 fact fixes", "live": "https://claude.ai/artifact/7b3nuY2NULBNmT8GtJdUJC", "pdf": "pdf/02-technical-brief.pdf", "markdown": "https://github.com/cjimmylin/cei-biz/blob/claude/awesome-maxwell-y4nc45/plan/TECHNICAL-BRIEF.md", "status": "Current"}, {"id": "christian", "order": 3, "name": "CEI for the Church (Christian edition)", "kind": "Plan", "audience": "Churches, Christian funders and leaders", "in_set": "Yes", "set_start": 103, "pages": 6, "words": 2205, "revised": "2026-11-03", "revision": "'The church' defined for every communion; corrected citations; Give ladder; Protestant and Orthodox conversations noted", "live": "https://claude.ai/artifact/Ee8hwiBgHuwk1Saxubu7AK", "pdf": "pdf/03-christian-edition.pdf", "markdown": "https://github.com/cjimmylin/cei-biz/blob/claude/awesome-maxwell-y4nc45/plan/CHRISTIAN-EDITION.md", "status": "Current"}, {"id": "brief", "order": 4, "name": "Board brief (two pages)", "kind": "Brief", "audience": "Board candidates", "in_set": "Yes", "set_start": 109, "pages": 2, "words": 1744, "revised": "2026-11-03", "revision": "Entity bullet (Model C at 6.5%), what a director commits to, no faith test, $7K awarded, website this month", "live": "https://claude.ai/artifact/FVXPs9QcRT1SYTujxpaS4B", "pdf": "pdf/04-board-brief.pdf", "markdown": "https://github.com/cjimmylin/cei-biz/blob/claude/awesome-maxwell-y4nc45/plan/BOARD-BRIEF.md", "status": "Current"}, {"id": "methods", "order": 5, "name": "Methods Committee charter", "kind": "Charter", "audience": "Board, for adoption", "in_set": "Yes", "set_start": 111, "pages": 5, "words": 1679, "revised": "2026-10-31", "revision": "Composition with scholars of religious traditions; self-binding policy with two-thirds override; activation clause; inclusion-criteria annex", "live": "https://claude.ai/artifact/5LFC367cz4kzTUgUQwR4dR", "pdf": "pdf/05-methods-committee-charter.pdf", "markdown": "https://github.com/cjimmylin/cei-biz/blob/claude/awesome-maxwell-y4nc45/plan/METHODS-COMMITTEE-CHARTER.md", "status": "Proposed for adoption"}, {"id": "partner", "order": 6, "name": "Tradition Partner charter", "kind": "Charter", "audience": "Board and methods committee, for adoption", "in_set": "Yes", "set_start": 117, "pages": 6, "words": 1842, "revised": "2026-10-31", "revision": "Per-school reference points; Application-task opt-out; panel-authored probes; withdrawal, licensing and amendment rules; glossary", "live": "https://claude.ai/artifact/7wDFN5rp1QwZ6QXKbr4Brb", "pdf": "pdf/06-tradition-partner-charter.pdf", "markdown": "https://github.com/cjimmylin/cei-biz/blob/claude/awesome-maxwell-y4nc45/plan/TRADITION-PARTNER-CHARTER.md", "status": "Proposed for adoption"}, {"id": "set", "order": 7, "name": "Bound plan set (all six, duplex-ready)", "kind": "PDF set", "audience": "Print", "in_set": "\u2014", "set_start": null, "pages": 122, "words": null, "revised": "2026-11-03", "revision": "Re-bound Nov 3 with every answer applied; each document starts on a right-hand page", "live": "", "pdf": "pdf/CEI-plan-set.pdf", "markdown": "", "status": "Current"}, {"id": "budget", "order": 8, "name": "Budget v4 (2027\u20132031)", "kind": "Workbook", "audience": "Board finance committee", "in_set": "No", "set_start": null, "pages": null, "words": null, "revised": "2026-11-03", "revision": "Model C fee 6.5%; 2027 payroll load; Floor path; forward reserve; 2027 cash sheet starting from zero", "live": "", "pdf": "", "markdown": "https://github.com/cjimmylin/cei-biz/blob/claude/awesome-maxwell-y4nc45/plan/CEI-Budget-v4-2027-2031.xlsx", "status": "Adopted as planning basis; board ratifies"}, {"id": "synthesis", "order": 9, "name": "Council synthesis (Oct 31)", "kind": "Review", "audience": "Internal", "in_set": "No", "set_start": null, "pages": null, "words": 3593, "revised": "2026-10-31", "revision": "What the eight reviews changed, what was declined, and the founder's questions", "live": "", "pdf": "", "markdown": "https://github.com/cjimmylin/cei-biz/blob/claude/awesome-maxwell-y4nc45/reviews/2026-10-31-SYNTHESIS.md", "status": "Record"}, {"id": "checklist", "order": 10, "name": "Internal checklist", "kind": "Internal", "audience": "Leadership (not for circulation)", "in_set": "No", "set_start": null, "pages": null, "words": 2125, "revised": "2026-11-03", "revision": "Answers of Oct 31\u2013Nov 3 recorded; facts still open listed", "live": "", "pdf": "", "markdown": "https://github.com/cjimmylin/cei-biz/blob/claude/awesome-maxwell-y4nc45/plan/INTERNAL-CHECKLIST.md", "status": "Living"}, {"id": "opportunities", "order": 11, "name": "Opportunities tracker", "kind": "Internal", "audience": "Leadership", "in_set": "No", "set_start": null, "pages": null, "words": 1873, "revised": "2026-11-02", "revision": "Weekly scan of Nov 2: GovAI fellowship (Nov 22), Impact AI (Nov 10/17), Oxford visitor programme (Dec 5), SC4AI workshop, ICLR workshops", "live": "", "pdf": "", "markdown": "https://github.com/cjimmylin/cei-biz/blob/claude/awesome-maxwell-y4nc45/OPPORTUNITIES.md", "status": "Living; scanned weekly"}], "rounds": [{"date": "2026-10-26", "round": "First full draft", "what": "Three plan versions written and made consistent (general, Christian edition, technical brief)", "documents": "Plan, Technical brief, Christian edition"}, {"date": "2026-10-27", "round": "Six adversarial reviews", "what": "Faith funder, AI-safety funder, lab evaluations researcher, Catholic and secular scholars, board chair, consistency editor; fixes applied; board brief and two charters drafted; first bound set (88 pages)", "documents": "All six"}, {"date": "2026-10-28", "round": "Budget v3 and appendices", "what": "Original five-year budget rebuilt around the plan (two paths); general plan's long sections moved to Appendices A\u2013E; set re-bound (90 pages)", "documents": "Plan, Budget"}, {"date": "2026-10-31", "round": "Eight-reviewer council", "what": "Nonprofit executive, professor, founder, governance, AI researcher, program officer, interfaith scholar, CFO; synthesis; next version of all six documents; Budget v4 with a Floor path and a 2027 cash sheet; set re-bound (122 pages)", "documents": "All six, Budget"}, {"date": "2026-11-01", "round": "Founder answers, rounds 1\u20132", "what": "Hours, Model C at 6.5%, sponsor employs 2027 staff, $8K v1 modules, encyclical module kept in v1, CEFE-AI after v1, founding circle, module scope, drafting disclosure, devotional sentences removed", "documents": "Plan, Brief, Technical brief, Christian edition, Methods charter, Budget"}, {"date": "2026-11-03", "round": "Founder answers, rounds 3\u20136", "what": "No board faith test, independence adopted, work began 2024, $7K awarded not received, Articles accepted, naming unchanged, IRB open, EthicsMosaic unreviewed, Governance Symphony at 5,140, website this month; set re-bound", "documents": "Plan, Brief, Technical brief, Christian edition, Budget"}]};
+const fmtDate = (s) => (s ? d3.utcFormat('%b %-d, %Y')(new Date(s)) : '');
+const fmtNum = d3.format(',');
+const docs = DATA.documents.slice().sort((a, b) => Number(a.order) - Number(b.order));
+const rounds = DATA.rounds.slice().sort((a, b) => (a.date < b.date ? 1 : -1));
+document.getElementById('ndocs').textContent = fmtNum(docs.length);
+const setRow = docs.find((d) => d.id === 'set');
+document.getElementById('setpages').textContent = setRow ? fmtNum(Number(setRow.pages)) : '—';
+document.getElementById('latest').textContent = fmtDate(docs.map((d) => d.revised).sort().slice(-1)[0]);
+document.getElementById('generated').textContent = fmtDate('2026-11-04');
+const setlink = document.getElementById('setlink');
+setlink.textContent = setRow ? 'CEI plan set (PDF, ' + fmtNum(Number(setRow.pages)) + ' pages)' : '—';
+if (setRow) setlink.href = setRow.pdf;
+
+function drawSet() {
+  const el = document.getElementById('setchart'); el.replaceChildren();
+  const rows = docs.filter((d) => d.in_set === 'Yes').map((d) => ({ ...d, pages: Number(d.pages), set_start: Number(d.set_start) }));
+  const width = Math.max(el.clientWidth || 600, 320);
+  const rowH = 34, left = Math.min(230, width * 0.38), right = 16, top = 6, bottom = 24;
+  const height = top + rows.length * rowH + bottom;
+  const svg = d3.create('svg').attr('viewBox', [0, 0, width, height]).attr('width', '100%').attr('role', 'img').attr('aria-label', 'Pages per document in the bound set');
+  const x = d3.scaleLinear([0, d3.max(rows, (d) => d.pages) || 1], [left, width - right]);
+  const y = d3.scaleBand(rows.map((d) => d.id), [top, top + rows.length * rowH]).padding(0.3);
+  const gx = svg.append('g').attr('transform', 'translate(0,' + (top + rows.length * rowH) + ')').call(d3.axisBottom(x).ticks(Math.min(6, Math.floor(width / 90))).tickSize(-(rows.length * rowH)).tickFormat(fmtNum));
+  gx.attr('font-size', null).attr('font-family', null);
+  gx.selectAll('line').attr('stroke', 'var(--grid)'); gx.select('.domain').attr('stroke', 'var(--line)');
+  gx.selectAll('text').attr('fill', 'var(--muted)').style('font-size', '12px');
+  svg.append('g').selectAll('rect').data(rows).join('rect').attr('x', x(0)).attr('y', (d) => y(d.id)).attr('width', (d) => Math.max(1, x(d.pages) - x(0))).attr('height', y.bandwidth()).attr('rx', 3).attr('fill', 'var(--accent)');
+  svg.append('g').selectAll('text').data(rows).join('text').attr('x', left - 8).attr('y', (d) => y(d.id) + y.bandwidth() / 2).attr('dy', '0.35em').attr('text-anchor', 'end').attr('fill', 'var(--fg)').style('font-size', '12px')
+    .text((d) => d.name.length > 30 && width < 560 ? d.name.slice(0, 28) + '…' : d.name);
+  svg.append('g').selectAll('text').data(rows).join('text').attr('x', (d) => x(d.pages) + 6).attr('y', (d) => y(d.id) + y.bandwidth() / 2).attr('dy', '0.35em').attr('fill', 'var(--muted)').style('font-size', '12px')
+    .text((d) => fmtNum(d.pages) + (d.pages === 1 ? ' page' : ' pages') + ' · starts p. ' + fmtNum(d.set_start));
+  el.appendChild(svg.node());
+}
+drawSet(); window.addEventListener('resize', drawSet);
+
+const chipClass = (status) => /^Current/.test(status) ? 'chip ok' : /Proposed|ratifies/.test(status) ? 'chip warn' : 'chip';
+const link = (href, label) => { const a = document.createElement('a'); a.href = href; a.textContent = label; if (!/^pdf\//.test(href)) { a.target = '_blank'; a.rel = 'noopener'; } return a; };
+let filter = 'all';
+function drawCards() {
+  const el = document.getElementById('cards'); el.replaceChildren();
+  let rows = docs;
+  if (filter === 'set') rows = rows.filter((d) => d.in_set === 'Yes'); else if (filter !== 'all') rows = rows.filter((d) => d.kind === filter);
+  for (const d of rows) {
+    const card = document.createElement('article'); card.className = 'doc';
+    const top = document.createElement('div'); top.className = 'top';
+    const name = document.createElement('span'); name.className = 'name'; name.textContent = d.name;
+    const kind = document.createElement('span'); kind.className = 'kind'; kind.textContent = d.kind; top.append(name, kind);
+    const meta = document.createElement('div'); meta.className = 'meta';
+    const chip = document.createElement('span'); chip.className = chipClass(d.status); chip.textContent = d.status;
+    const rev = document.createElement('span'); rev.textContent = 'Revised ' + fmtDate(d.revised); meta.append(chip, rev);
+    if (d.pages) { const p = document.createElement('span'); p.textContent = fmtNum(Number(d.pages)) + (Number(d.pages) === 1 ? ' page' : ' pages'); meta.append(p); }
+    if (d.words) { const w = document.createElement('span'); w.textContent = fmtNum(Number(d.words)) + ' words'; meta.append(w); }
+    const aud = document.createElement('p'); aud.className = 'note'; aud.textContent = 'For ' + d.audience;
+    const chg = document.createElement('p'); chg.className = 'chg'; chg.textContent = 'Last change: ' + d.revision;
+    const links = document.createElement('div'); links.className = 'links';
+    if (d.pdf) links.append(link(d.pdf, 'PDF'));
+    if (d.live) links.append(link(d.live, 'Live doc'));
+    if (d.markdown) links.append(link(d.markdown, /xlsx$/.test(d.markdown) ? 'Workbook (repo, private)' : 'Source (repo, private)'));
+    card.append(top, meta, aud, chg, links); el.appendChild(card);
+  }
+}
+document.querySelectorAll('[data-filter]').forEach((b) => b.addEventListener('click', () => { filter = b.getAttribute('data-filter'); document.querySelectorAll('[data-filter]').forEach((x) => x.setAttribute('aria-pressed', String(x === b))); drawCards(); }));
+drawCards();
+const rel = document.getElementById('rounds');
+for (const r of rounds) {
+  const row = document.createElement('div'); row.className = 'round';
+  const when = document.createElement('div'); when.className = 'when'; when.textContent = fmtDate(r.date);
+  const body = document.createElement('div');
+  const t = document.createElement('div'); t.className = 'title'; t.textContent = r.round;
+  const w = document.createElement('p'); w.textContent = r.what;
+  const d = document.createElement('p'); d.className = 'docs'; d.textContent = 'Touched: ' + r.documents;
+  body.append(t, w, d); row.append(when, body); rel.appendChild(row);
+}
+</script>
+</body>
+</html>
