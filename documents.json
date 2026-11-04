@@ -14,7 +14,7 @@
    "revision": "Nov 1\u20133 answers: no board faith test, independence adopted, $7K awarded not received, founding year, IRB open",
    "live": "https://claude.ai/artifact/3zMEdHBe8wcpPRxjWDm28B",
    "pdf": "pdf/01-business-plan.pdf",
-   "markdown": "https://github.com/cjimmylin/cei-biz/blob/claude/awesome-maxwell-y4nc45/plan/BUSINESS-PLAN-2027-2029.md",
+   "markdown": "https://github.com/cjimmylin/cei-biz-share/blob/main/source/BUSINESS-PLAN-2027-2029.md",
    "status": "Current"
   },
   {
@@ -31,7 +31,7 @@
    "revision": "Council round: say\u2013do operationalized, judge rules at \u03b1 0.80, drafting disclosure, illustrative items; Nov 3 fact fixes",
    "live": "https://claude.ai/artifact/7b3nuY2NULBNmT8GtJdUJC",
    "pdf": "pdf/02-technical-brief.pdf",
-   "markdown": "https://github.com/cjimmylin/cei-biz/blob/claude/awesome-maxwell-y4nc45/plan/TECHNICAL-BRIEF.md",
+   "markdown": "https://github.com/cjimmylin/cei-biz-share/blob/main/source/TECHNICAL-BRIEF.md",
    "status": "Current"
   },
   {
@@ -48,7 +48,7 @@
    "revision": "'The church' defined for every communion; corrected citations; Give ladder; Protestant and Orthodox conversations noted",
    "live": "https://claude.ai/artifact/Ee8hwiBgHuwk1Saxubu7AK",
    "pdf": "pdf/03-christian-edition.pdf",
-   "markdown": "https://github.com/cjimmylin/cei-biz/blob/claude/awesome-maxwell-y4nc45/plan/CHRISTIAN-EDITION.md",
+   "markdown": "https://github.com/cjimmylin/cei-biz-share/blob/main/source/CHRISTIAN-EDITION.md",
    "status": "Current"
   },
   {
@@ -65,7 +65,7 @@
    "revision": "Entity bullet (Model C at 6.5%), what a director commits to, no faith test, $7K awarded, website this month",
    "live": "https://claude.ai/artifact/FVXPs9QcRT1SYTujxpaS4B",
    "pdf": "pdf/04-board-brief.pdf",
-   "markdown": "https://github.com/cjimmylin/cei-biz/blob/claude/awesome-maxwell-y4nc45/plan/BOARD-BRIEF.md",
+   "markdown": "https://github.com/cjimmylin/cei-biz-share/blob/main/source/BOARD-BRIEF.md",
    "status": "Current"
   },
   {
@@ -82,7 +82,7 @@
    "revision": "Composition with scholars of religious traditions; self-binding policy with two-thirds override; activation clause; inclusion-criteria annex",
    "live": "https://claude.ai/artifact/5LFC367cz4kzTUgUQwR4dR",
    "pdf": "pdf/05-methods-committee-charter.pdf",
-   "markdown": "https://github.com/cjimmylin/cei-biz/blob/claude/awesome-maxwell-y4nc45/plan/METHODS-COMMITTEE-CHARTER.md",
+   "markdown": "https://github.com/cjimmylin/cei-biz-share/blob/main/source/METHODS-COMMITTEE-CHARTER.md",
    "status": "Proposed for adoption"
   },
   {
@@ -99,7 +99,7 @@
    "revision": "Per-school reference points; Application-task opt-out; panel-authored probes; withdrawal, licensing and amendment rules; glossary",
    "live": "https://claude.ai/artifact/7wDFN5rp1QwZ6QXKbr4Brb",
    "pdf": "pdf/06-tradition-partner-charter.pdf",
-   "markdown": "https://github.com/cjimmylin/cei-biz/blob/claude/awesome-maxwell-y4nc45/plan/TRADITION-PARTNER-CHARTER.md",
+   "markdown": "https://github.com/cjimmylin/cei-biz-share/blob/main/source/TRADITION-PARTNER-CHARTER.md",
    "status": "Proposed for adoption"
   },
   {
@@ -133,7 +133,7 @@
    "revision": "Model C fee 6.5%; 2027 payroll load; Floor path; forward reserve; 2027 cash sheet starting from zero",
    "live": "",
    "pdf": "",
-   "markdown": "https://github.com/cjimmylin/cei-biz/blob/claude/awesome-maxwell-y4nc45/plan/CEI-Budget-v4-2027-2031.xlsx",
+   "markdown": "https://github.com/cjimmylin/cei-biz-share/raw/main/source/CEI-Budget-v4-2027-2031.xlsx",
    "status": "Adopted as planning basis; board ratifies"
   },
   {
@@ -150,25 +150,8 @@
    "revision": "What the eight reviews changed, what was declined, and the founder's questions",
    "live": "",
    "pdf": "",
-   "markdown": "https://github.com/cjimmylin/cei-biz/blob/claude/awesome-maxwell-y4nc45/reviews/2026-10-31-SYNTHESIS.md",
+   "markdown": "https://github.com/cjimmylin/cei-biz-share/blob/main/source/2026-10-31-SYNTHESIS.md",
    "status": "Record"
-  },
-  {
-   "id": "checklist",
-   "order": 10,
-   "name": "Internal checklist",
-   "kind": "Internal",
-   "audience": "Leadership (not for circulation)",
-   "in_set": "No",
-   "set_start": null,
-   "pages": null,
-   "words": 2125,
-   "revised": "2026-11-03",
-   "revision": "Answers of Oct 31\u2013Nov 3 recorded; facts still open listed",
-   "live": "",
-   "pdf": "",
-   "markdown": "https://github.com/cjimmylin/cei-biz/blob/claude/awesome-maxwell-y4nc45/plan/INTERNAL-CHECKLIST.md",
-   "status": "Living"
   },
   {
    "id": "opportunities",
@@ -184,7 +167,7 @@
    "revision": "Weekly scan of Nov 2: GovAI fellowship (Nov 22), Impact AI (Nov 10/17), Oxford visitor programme (Dec 5), SC4AI workshop, ICLR workshops",
    "live": "",
    "pdf": "",
-   "markdown": "https://github.com/cjimmylin/cei-biz/blob/claude/awesome-maxwell-y4nc45/OPPORTUNITIES.md",
+   "markdown": "https://github.com/cjimmylin/cei-biz-share/blob/main/source/OPPORTUNITIES.md",
    "status": "Living; scanned weekly"
   }
  ],
