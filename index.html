@@ -22,6 +22,8 @@
   .lede b { color: var(--fg); font-weight: 600; font-variant-numeric: tabular-nums; }
   .card { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 20px 22px; display: flex; flex-direction: column; gap: 10px; min-width: 0; }
   .note { color: var(--muted); font-size: .9rem; margin: 0; }
+  #start-here p, #start-here ol { margin: 0; max-width: 72ch; }
+  #start-here ol { padding-left: 1.3rem; display: flex; flex-direction: column; gap: 4px; }
   .setchart svg { width: 100%; height: auto; display: block; }
   .filters { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
   .filters button { font: inherit; font-size: .85rem; color: var(--muted); background: transparent; border: 1px solid var(--line); border-radius: 999px; padding: 2px 12px; cursor: pointer; }
@@ -56,6 +58,24 @@
     <p class="lede">The current version of every document in the Center for Ethical Intelligence business-plan set, and what changed last. <b id="ndocs">—</b> documents are tracked; the bound set of six runs <b id="setpages">—</b> pages and was last re-bound on <b id="latest">—</b>. PDFs, Markdown sources and the budget workbook are hosted with this page; the live-doc links open the editable copies in Claude and need their own access.</p>
     <p class="lede">Also in Claude (access required): the <a href="https://claude.ai/artifact/5Xr9f8wDmX52rM68cfMnAA" target="_blank" rel="noopener">CEI Documents dashboard</a>, the private view of this page with the internal checklist, and the <a href="https://claude.ai/artifact/RW6svFpMvg7Qbgo4ZEiee7" target="_blank" rel="noopener">CEI Work Hub</a> of files, work done and open to-dos.</p>
   </header>
+
+  <section class="card" id="start-here">
+    <h2>Start here</h2>
+    <p><strong>What this is.</strong> The Center for Ethical Intelligence (CEI) is a small nonprofit, founded by Christians, that builds open tests of whether AI models faithfully represent the values of the world's moral and religious traditions, and act on the values they state. Each tradition's own scholars write the reference answers; no tradition is scored by another's standard. This page holds the current set of CEI's planning documents, kept consistent with one another, with a record of how each version came to be.</p>
+    <p><strong>Read in this order.</strong></p>
+    <ol>
+      <li><strong>Board brief</strong> (two pages): the whole case, the ask, the risks and what is still open. Start here.</li>
+      <li><strong>General business plan</strong>: the full plan for board candidates and funders, with the theory of change, the 2027 budget and five-year outlook, governance, and appendices on the measurement design, the peer landscape and the evidence behind the plan.</li>
+      <li><strong>Technical brief</strong>: for AI researchers and labs, the measurement design and validation plan in detail.</li>
+      <li><strong>CEI for the Church</strong>: the same plan written for churches and Christian funders.</li>
+      <li><strong>The two charters</strong>: the rules proposed for the methods committee that governs scoring, and for the scholars of each tradition who author a module.</li>
+    </ol>
+    <p>The <strong>bound set</strong> binds all six in that order for printing, double-sided, each document starting on a right-hand page.</p>
+    <p><strong>What the labels mean.</strong> <em>Current</em>: the latest version, consistent across the set. <em>Proposed for adoption</em>: written for the board's first meeting, not yet adopted. <em>Adopted as planning basis</em>: numbers leadership has adopted, which the board ratifies. <em>Record</em> and <em>Living</em>: reference material that keeps changing (the opportunities tracker is updated by a weekly scan). <em>Revised</em> is the date of the last change to that document; <em>Last change</em> says what moved.</p>
+    <p><strong>The links on each card.</strong> <em>PDF</em> is a fixed copy of the current version, for reading or printing. <em>Source (Markdown)</em> is the same text on GitHub. <em>Workbook (xlsx)</em> is the five-year budget with every total a formula. <em>Live doc</em> is the editable copy in Claude, which needs its own access; the PDF matches it as of the revised date.</p>
+    <p><strong>How the set got here.</strong> The history at the bottom lists each round: six adversarial reviews on Oct 27, an eight-reviewer council on Oct 31, and the founder's answers since. The council synthesis (among the documents) explains what was applied, what was changed, what was declined and why.</p>
+    <p><strong>Questions and updates.</strong> Write to info@ethical-intel.org. This page republishes whenever a document changes; the date in the footer is the last build.</p>
+  </section>
 
   <section class="card" id="the-set">
     <h2>The bound set, in print order</h2>
