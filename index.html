@@ -117,7 +117,7 @@ document.getElementById('ndocs').textContent = fmtNum(docs.length);
 const setRow = docs.find((d) => d.id === 'set');
 document.getElementById('setpages').textContent = setRow ? fmtNum(Number(setRow.pages)) : '—';
 document.getElementById('latest').textContent = fmtDate(docs.map((d) => d.revised).sort().slice(-1)[0]);
-document.getElementById('generated').textContent = fmtDate('2026-11-09');
+document.getElementById('generated').textContent = fmtDate('2026-11-12');
 const setlink = document.getElementById('setlink');
 setlink.textContent = setRow ? 'CEI plan set (PDF, ' + fmtNum(Number(setRow.pages)) + ' pages)' : '—';
 if (setRow) setlink.href = setRow.pdf;
