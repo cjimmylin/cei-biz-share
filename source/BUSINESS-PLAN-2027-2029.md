@@ -275,14 +275,14 @@ Both founders serve part time as volunteers; neither is paid in any year of this
 
 In this order: the engineer, then the technical co-lead, then the fractional Executive Director once nine months of the role's loaded cost has been received, then the fellow with Tranche 2. The nine-months rule is defined in the Financial plan.
 
-1. **Research engineer** — part time (about 500 hours), engaged first, on a fixed-term contract through our fiscal sponsor, to avoid hiring delay; builds the evaluation harness, data pipeline and evaluation server (the local-run kit is a stretch goal), with experience in standard tools (e.g., Inspect, lm-evaluation-harness, HELM).
-2. **Technical co-lead** — a named evaluations lead with published work, the reviewers' first condition and our most important near-term recruit; an advisory engagement with defined deliverables, approved by the sponsor; owns v1's method and distribution; part time in 2028, full time from 2029.
-3. **Executive Director** — the role is vacant, and we are recruiting with a clear role, budget and reporting line. The design is decided: a fractional Executive Director (about 60% time) employed through the sponsor in 2027, full time from 2028, reporting to the board through the chair and named in the bylaws as chief executive. In the first 90 days the board designs the role, appoints a search committee of independent directors and builds the comparables file; the role is posted only when nine months of its loaded cost has been received. Pay figures are planning assumptions, set each year by the independent directors, founders absent, against three Bay Area comparables, minuted within 60 days, with the sponsor's approval while sponsored.
+1. **Research engineer** — part time (about 500 hours), engaged first, as a part-time CEI employee on a fixed-term contract, to avoid hiring delay; builds the evaluation harness, data pipeline and evaluation server (the local-run kit is a stretch goal), with experience in standard tools (e.g., Inspect, lm-evaluation-harness, HELM).
+2. **Technical co-lead** — a named evaluations lead with published work, the reviewers' first condition and our most important near-term recruit; an advisory engagement with defined deliverables; owns v1's method and distribution; part time in 2028, full time from 2029.
+3. **Executive Director** — the role is vacant, and we are recruiting with a clear role, budget and reporting line. The design is decided: a fractional Executive Director (about 60% time) employed by CEI in 2027, full time from 2028, reporting to the board through the chair and named in the bylaws as chief executive. In the first 90 days the board designs the role, appoints a search committee of independent directors and builds the comparables file; the role is posted only when nine months of its loaded cost has been received. Pay figures are planning assumptions, set each year by the independent directors, founders absent, against three Bay Area comparables, minuted within 60 days.
 4. **Research fellow** — a computer-science fellow or postdoc hosted with a university partner, from mid-2027 with Tranche 2.
 5. **Tradition partners and community reviewers** — scholars who author each module using our method, joined by practitioners and community members (including from the Global South) who review it.
 6. **Advisors** — a measurement (psychometrics) advisor, and at least one secular AI-safety or ML researcher as a co-author on v1.
 
-**Employees, not contractors.** The sponsor's rules and California's ABC test both point the same way: project leaders cannot be independent contractors, and core work is employee work. The Executive Director and the engineer are therefore sponsor employees in 2027, with a 13.5% payroll-tax load (employer taxes and workers' compensation; no benefits on part-time roles) and 25% with benefits from 2028. The co-lead is an advisory engagement with defined deliverables, approved by the sponsor.
+**Employees, not contractors.** California's ABC test and our sponsorship agreement point the same way: project leaders cannot be independent contractors, core work is employee work, and no one working on CEI is the sponsor's employee. The Executive Director and the engineer are therefore CEI's own employees in 2027, paid through a payroll service, with a 13.5% payroll-tax load (employer taxes and workers' compensation; no benefits on part-time roles) and 25% with benefits from 2028. The co-lead is an advisory engagement with defined deliverables.
 
 **How we lead.** We want CEI to outlast its founders. Founder compensation will be set by independent directors, with founders recused — and, in practice, each founder advocates for the other. We commit to bringing major decisions to the board, to asking the chair to watch over founder health, and to sharing the stage with the people doing the work. How we keep ourselves as people of faith is in Appendix E.
 
@@ -307,7 +307,7 @@ In this order: the engineer, then the technical co-lead, then the fractional Exe
 
 - **Size and terms:** seven to nine directors with an independent majority; a one-year first term, then three-year terms in three classes, at most two consecutive. Quorum is a majority of directors in office; removal without cause takes two-thirds of directors in office. The chair and at least three independents are seated at one meeting.
 - **Before any independent director joins:** bylaws with indemnification adopted, D&O insurance of at least $1M bound, and a secretary and a treasurer, neither of them the president or chair, in office as California requires.
-- **Duties:** hire and review the Executive Director, who is the chief executive under the bylaws (subject to the sponsor's approval while sponsored); approve the budget and strategy; protect research independence.
+- **Duties:** hire and review the Executive Director, who is the chief executive under the bylaws; approve the budget and strategy; protect research independence.
 - **Giving:** every board member gives personally each year at a level meaningful to them, with no minimum; as a board we aim to give or open doors to about $50K in 2027; board leaders give first.
 - **Conflicts:** no director may be a current employee, officer, director or more-than-nominal investor in a company that develops frontier models or whose models CEI evaluates; one who becomes so resigns or takes leave. Directors disclose ties to funders, labs and partners each year, and recuse from related decisions and from pre-release access to that lab's results.
 - **Culture:** a board that welcomes hard questions, with an executive session of independent directors, without the founders, at every meeting; the chair leads it and its substance reaches the president within a week.
@@ -329,21 +329,22 @@ In this order: the engineer, then the technical co-lead, then the fractional Exe
 **Legal structure.**
 
 - CEI is a California nonprofit public benefit corporation (work began in 2024; Articles approved 2026). Its work runs as a fiscally sponsored project of Social Good Fund, a 501(c)(3), under a Model C (pre-approved grant) sponsorship agreement at 6.5% of receipts.
-- The sponsor holds all funds and grants for CEI, employs any staff, holds title to data and code created under sponsorship until they are released under open licenses, charges its fee on receipts, and has final approval of legal, financial and employment matters. Grant agreements are signed by the sponsor.
-- CEI's directors govern the corporation and set program, policy and budget requests, and the Executive Director's hiring, subject to that approval. The board adopts a resolution releasing data and code under open licenses by default.
-- The fee is 6.5% of receipts, Social Good Fund's Model C rate, and runs until the mid-2029 transfer to our own 501(c)(3). The sponsor employs the 2027 Executive Director and engineer.
-- **The 2029 transition.** We plan to file Form 1023 in Q1 2028 and to transfer funds, staff and data to CEI in mid-2029, once the determination letter is in hand and each funder has consented to the transfer of its grant. The sponsor's fee runs until the move is complete, and the 2029 budget carries a one-time $20K transition line (legal, duplicate insurance, payroll setup, asset and grant transfers).
+- Gifts and grants for CEI go to the sponsor, which holds them in a restricted fund, takes its fee and regrants them to CEI; funders' grant agreements are with the sponsor, which has authority over that fund. Everything else is CEI's: it employs its own staff, owns the data, code and other intellectual property it creates, signs its own contracts, buys its own insurance and indemnifies the sponsor.
+- CEI's directors govern the corporation: program, policy, budget and the Executive Director's hiring. CEI reports to the sponsor twice a year (by June 1 and January 1), keeps separate books for grant funds, and credits the sponsor, with its web address, on every project document. The board adopts a resolution releasing data and code under open licenses by default.
+- The fee is 6.5% of receipts, Social Good Fund's Model C rate (14% on grants of government funds), and runs until our own 501(c)(3) is in place.
+- **The 2029 transition.** We plan to file Form 1023 in Q1 2028 (filing by September 30, 2028 makes the exemption retroactive to June 2026). Once the determination letter is in hand, donors give to CEI directly and the restricted fund's balance and pending grants move to CEI, in mid-2029, with each funder's consent. Staff and intellectual property are already CEI's, so the 2029 budget carries a one-time $10K transition line (legal and the transfer).
 
 | Item | Status | Owner | Target date |
 | --- | --- | --- | --- |
 | California nonprofit corporation | Articles approved 2026 | President | Done |
-| Fiscal sponsorship (Social Good Fund) | In place; the executed agreement states the model, fee and data terms | President | Before the first board meeting |
+| Fiscal sponsorship (Social Good Fund) | Model C grant agreement issued for signature in November 2026: 6.5% fee; CEI employs its staff and owns its IP; reports due by June 1 and January 1 | President | Nov 15, 2026 |
+| Employer setup: EIN, bank account, California employer registration, payroll service, workers' compensation | To set up; the sponsor requires the EIN and governing documents | Treasurer | Before the first paid hire |
 | Bylaws (indemnification; the Executive Director as chief executive; board size, quorum, removal and terms) | To adopt | Board, drafted by the president with counsel | Before any independent director joins |
-| D&O insurance (at least $1M) | To bind | Treasurer | Before any independent director joins |
+| D&O (at least $1M) and general liability insurance | To bind; the sponsor carries none for CEI | Treasurer | Before any independent director joins |
 | Officers: secretary and treasurer | In office before any outside director joins, as California requires; recorded in the Statement of Information | President | Q4 2026 |
 | State filings: Statement of Information; Attorney General registration within 30 days of first holding assets; state exemption filing | Filed as each falls due | Treasurer, with counsel | Q4 2026 – Q1 2027 |
-| Funds, accounts and accounting | Through the sponsor's account for CEI while sponsored; CEI's own accounts open when funds transfer | Treasurer | Mid-2029 |
-| CEI's own 501(c)(3) status | Form 1023 to file | President, with counsel | Q1 2028 |
+| Funds, accounts and accounting | Gifts to the sponsor's restricted fund, regranted to CEI's own bank account; separate books for grant funds | Treasurer | Before the first grant |
+| CEI's own 501(c)(3) status | Form 1023 to file; by Sept 30, 2028 for exemption retroactive to June 2026 | President, with counsel | Q1 2028 |
 | Volunteer agreements (intellectual property, credit, confidentiality) | To sign with about 40 contributors | Volunteer operations lead | Q1 2027 |
 | Dataset licensing (EthicsMosaic) | Review before release | Research director | Before any release |
 | Ethics review (IRB) for human raters | Route to be chosen with the first hire (an independent ethics board or a university partner's IRB); budgeted in Tranche 1 | Technical co-lead | Before gold-set rating begins |
@@ -401,18 +402,18 @@ Our 2027 budget is about **$308K**, raised in two tranches. **Hiring order: the 
 
 | Line | Tranche 1: Foundation | Tranche 2: Research capacity | Basis |
 | --- | --- | --- | --- |
-| Executive Director (fractional, about 60% time, sponsor-employed) | $60K | — | Pro-rated from 2026 California small-nonprofit ED benchmarks ($85K–$115K full time; ExecSearches, Candid) |
+| Executive Director (fractional, about 60% time, a CEI employee) | $60K | — | Pro-rated from 2026 California small-nonprofit ED benchmarks ($85K–$115K full time; ExecSearches, Candid) |
 | Research engineer (part-time contract, about 500 hours) | $50K | — | Evaluation harness, data pipeline, evaluation server |
-| Payroll taxes on sponsor-employed roles (13.5%) | $15K | — | Employer taxes and workers' compensation; no benefits on part-time roles in 2027 |
+| Payroll taxes on CEI's employees (13.5%) | $15K | — | Employer taxes and workers' compensation; no benefits on part-time roles in 2027 |
 | Technical co-lead (advisory engagement, defined deliverables) | $10K | — | A named evaluations lead with published work, the reviewers' first condition; part time in 2028, full time from 2029 |
 | AI tokens, compute and judge validation | $34K | — | One frontier run of five models on five modules at about $1,200 per model per module ($30K), the sixth model open-weight and run locally ($1K), and $3K for judge validation and reruns; researcher-access credits are the slack |
-| Data and evaluation infrastructure (hosting, evaluation server, storage) | $6K | — | Estimate |
+| Data and evaluation infrastructure (hosting, evaluation server, storage) | $5K | — | Estimate |
 | AI Governance (human validation of the coding, travel) | $3K | — | The program's only 2027 spending; the rest is volunteer time |
 | Methods Committee honoraria | $2K | — | Members may also serve pro bono |
 | Legal, accounting, insurance and ethics review | $12K | — | Includes D&O before any outside director joins and an ethics-review determination |
-| IT, website and the sponsor's monthly cost | $3.5K | — | Estimate |
+| IT, website and payroll service | $3.9K | — | CEI runs its own payroll as the employer |
 | Travel and board | $2.5K | — | Estimate |
-| Fundraising | $2K | — | Separated from program travel because most grants will not pay it |
+| Fundraising | $1.5K | — | Separated from program travel because most grants will not pay it |
 | Research fellow or postdoc (hosted with a university partner) | — | $38K | $75K a year, starting mid-2027 when the second tranche closes; depends on host and benefits |
 | Expert annotation and tradition leads (stipends and gold-set rating) | — | $40K | About $8K per v1 module: the v1 modules are authored by scholars already working with CEI, with honoraria; modules authored by a new tradition partner from 2028 are priced at $30K |
 | Scholar Group convening and annual report | — | $12K | Estimate |
@@ -443,17 +444,17 @@ No foundation on our list can pay before mid-2027, so Tranche 1 rests on board m
 | Path | 2027 | 2028 | 2029 | 2030 | 2031 | Five years |
 | --- | --- | --- | --- | --- | --- | --- |
 | Floor: revenue | $100K | $120K | $120K | $120K | $120K | $580K |
-| Floor: spending | $89K | $100K | $112K | $108K | $108K | $518K |
+| Floor: spending | $89K | $100K | $111K | $108K | $108K | $517K |
 | Conservative: revenue | $100K | $600K | $1.3M | $2.2M | $3.5M | $7.7M |
-| Conservative: spending | $89K | $526K | $1.16M | $1.94M | $3.06M | $6.8M |
+| Conservative: spending | $89K | $527K | $1.16M | $1.94M | $3.06M | $6.8M |
 | Conservative: people paid by CEI (plus hosted fellows) | 1 | 3 (+1) | 5 (+1) | 6 (+1) | 9 (+1) | — |
 | Aggressive: revenue | $308K | $800K | $1.8M | $3.0M | $5.0M | $10.9M |
-| Aggressive: spending | $288K | $707K | $1.53M | $2.65M | $4.24M | $9.4M |
+| Aggressive: spending | $288K | $709K | $1.53M | $2.65M | $4.24M | $9.4M |
 | Aggressive: people paid by CEI (plus hosted fellows) | 3 (+1) | 3 (+1) | 4 (+1) | 7 (+1) | 10 (+3) | — |
 
 *What each path achieves.* On the Floor path CEI stays a volunteer method-and-data project with one part-time engineer: a two-module preprint in 2027, a third module by 2029, results on six models a year, and a method others can reuse. On the Conservative path, 2027 stays mostly volunteer with a part-time engineer and a two-module preprint; v1 ships in 2028 with a full-time Executive Director and the research fellow; the engineer goes full time and the first associates join in 2029; by 2031 CEI maintains eleven modules on sixteen models in two languages with nine people paid by CEI and a hosted fellow. On the Aggressive path, v1 ships within twelve months of the first paid hire with a fractional ED, a part-time contract engineer and a technical co-lead; the ED and engineer go full time in 2028; the co-lead goes full time in 2029 and a research scientist, second associate and operations manager follow by 2030; by 2031 CEI maintains fourteen modules on twenty models in three languages, run twice a year, with ten people paid by CEI and three hosted fellows. On every path the method, the datasheet and the profile reports are public; the Aggressive path is faster, broader, and the reference others build on sooner.
 
-*Shared assumptions.* Executive Director pay figures are planning assumptions, not offers: fractional at $60K in 2027 and full time from 2028 at about $120K, with each later step set each year by the independent directors, founders absent, against a file of at least three comparable Bay Area research nonprofits, minuted within 60 days, with the sponsor's approval while sponsored. Hiring order: the engineer, then the technical co-lead, then the fractional Executive Director once nine months of the role's loaded cost has been received, then the research fellow with Tranche 2, then associates from 2029. Payroll taxes at 13.5% on sponsor-employed roles in 2027 and 25% with benefits from 2028; a 6.5% fiscal-sponsor fee (Social Good Fund's Model C rate) until the mid-2029 transfer to our own 501(c)(3), with a one-time $20K transition line in 2029; a 5% contingency from 2029; a reserve funded from 2028 out of each year's surplus, up to the target and never from restricted grants, toward three months of the following year's spending (none in 2027). Unit costs: about $1,200 per model per module for each full run, with two runs a year at most and rotation re-scoring; about $8K of honoraria per v1 module, and $30K to build a module with a new tradition partner's scholars from 2028; $5K per module a year for item rotation; $10K one-time translation per module-language pair, plus maintenance; $30K per independent red-team audit; $15K per human-baseline study.
+*Shared assumptions.* Executive Director pay figures are planning assumptions, not offers: fractional at $60K in 2027 and full time from 2028 at about $120K, with each later step set each year by the independent directors, founders absent, against a file of at least three comparable Bay Area research nonprofits, minuted within 60 days. Hiring order: the engineer, then the technical co-lead, then the fractional Executive Director once nine months of the role's loaded cost has been received, then the research fellow with Tranche 2, then associates from 2029. Payroll taxes at 13.5% on CEI's employees in 2027 and 25% with benefits from 2028; a 6.5% fiscal-sponsor fee (Social Good Fund's Model C rate) until our own 501(c)(3) is in place in mid-2029, with a one-time $10K transition line; a 5% contingency from 2029; a reserve funded from 2028 out of each year's surplus, up to the target and never from restricted grants, toward three months of the following year's spending (none in 2027). Unit costs: about $1,200 per model per module for each full run, with two runs a year at most and rotation re-scoring; about $8K of honoraria per v1 module, and $30K to build a module with a new tradition partner's scholars from 2028; $5K per module a year for item rotation; $10K one-time translation per module-language pair, plus maintenance; $30K per independent red-team audit; $15K per human-baseline study.
 
 **Unit costs (estimates).** Tranche 1 (about $212K) builds the method and the v1 core; Tranche 2 (about $96K) adds two modules, the fellow and the public release. Each additional tradition module, once the method exists, costs roughly $20K–$40K (annotation, honoraria, compute; the workbook plans at $30K) — the main way our work scales. Keeping published benchmarks current costs about $5K per module a year for item rotation plus the full runs: for six modules on eight models run twice, with re-scoring after item rotation, about $170K in 2028.
 
@@ -477,27 +478,27 @@ The probability-weighted 2027 total is about $100K; with the $7K awarded, our ex
 | --- | --- | --- | --- | --- |
 | Executive Director | $60K | — | Board and major donors (general operating) | Asked; nothing committed |
 | Research engineer | $50K | — | AI-safety and science funders | Not yet asked |
-| Payroll taxes on sponsor-employed roles | $15K | — | Board and major donors (general operating) | Asked; nothing committed |
+| Payroll taxes on CEI's employees | $15K | — | Board and major donors (general operating) | Asked; nothing committed |
 | Technical co-lead | $10K | — | AI-safety and science funders | Not yet asked |
 | AI tokens, compute and judge validation | $34K | — | AI-safety and science funders; may be offset by researcher-access credits from vendors | Not yet asked |
-| Data and evaluation infrastructure | $6K | — | AI-safety and science funders | Not yet asked |
+| Data and evaluation infrastructure | $5K | — | AI-safety and science funders | Not yet asked |
 | AI Governance | $3K | — | Faith and research funders (a DELTA rapid-response grant) | Not yet asked |
 | Methods Committee honoraria | $2K | — | Board and major donors, or research funders | Asked; nothing committed |
 | Legal, accounting, insurance and ethics review | $12K | — | Board and major donors (general operating) | Asked; nothing committed |
-| IT, website and the sponsor's monthly cost | $3.5K | — | Board and major donors (general operating) | Asked; nothing committed |
+| IT, website and payroll service | $3.9K | — | Board and major donors (general operating) | Asked; nothing committed |
 | Travel and board | $2.5K | — | Board and major donors (general operating) | Asked; nothing committed |
-| Fundraising | $2K | — | Board and major donors (general operating) | Asked; nothing committed |
+| Fundraising | $1.5K | — | Board and major donors (general operating) | Asked; nothing committed |
 | Research fellow or postdoc | — | $38K | Faith and research funders (a DELTA fellowship or SFF) | Not yet asked |
 | Expert annotation and tradition leads | — | $40K | Faith and research funders (a DELTA partner grant; Templeton from 2028) | Not yet asked |
 | Scholar Group convening and annual report | — | $12K | Faith funders | Not yet asked |
 | Fiscal sponsor fee | about $14K | about $6K | Board and major donors (general operating) | Asked; nothing committed |
 | **Total** | **about $212K** | **about $96K** |  |  |
 
-About $114K of the year — the Executive Director, payroll taxes, legal, IT, travel, fundraising and the sponsor fee — is general operating cost that only individuals pay, because every foundation on our list funds research. Compute may be offset by vendor credits; annotation, the fellow and the convening are what faith and research funders pay for.
+About $115K of the year — the Executive Director, payroll taxes, legal, IT, travel, fundraising and the sponsor fee — is general operating cost that only individuals pay, because every foundation on our list funds research. Compute may be offset by vendor credits; annotation, the fellow and the convening are what faith and research funders pay for.
 
 **Financial discipline.** Funds flow through our fiscal sponsor until independent 501(c)(3) status. We will keep clean books from day one, report to the board quarterly with a monthly cash line in between, build toward a three-month operating reserve from unrestricted gifts, and never commit spending against unconfirmed grants. If 2027 falls short, the cut order is the convening first, then the timing of annotation, then the fellow's start.
 
-*All line items are planning estimates to be finalized with the board; salary ranges come from 2026 California and Bay Area nonprofit executive benchmarks (ExecSearches, Candid). The workbook sets founder compensation at $0 in every year, payroll taxes at 13.5% on sponsor-employed roles in 2027 and 25% with benefits from 2028, a 5% contingency from 2029 and a three-month reserve measured against the following year's spending; recruiting fees for a full-time Executive Director search are budgeted in 2028. The engineer line buys roughly 500 contract hours at Bay Area rates, about a quarter of a full-time year.*
+*All line items are planning estimates to be finalized with the board; salary ranges come from 2026 California and Bay Area nonprofit executive benchmarks (ExecSearches, Candid). The workbook sets founder compensation at $0 in every year, payroll taxes at 13.5% on CEI's employees in 2027 and 25% with benefits from 2028, a 5% contingency from 2029 and a three-month reserve measured against the following year's spending; recruiting fees for a full-time Executive Director search are budgeted in 2028. The engineer line buys roughly 500 contract hours at Bay Area rates, about a quarter of a full-time year.*
 
 ## Risks and mitigations
 
@@ -514,7 +515,7 @@ Our largest risks are focus, founder capacity and demand. The board reviews thes
 | **Methodology contested ("whose values?")** | Medium | Critics may dispute how traditions are represented or scored | Tradition-authored rubrics; benchmarks grounded in philosophy, psychology and human rights as well as faith; an independent methods committee; published methods; open comment periods |
 | **Politicization** | Medium | Results could be used to label models as favoring one side or faith | Per-model profile reports with no composite score, badge or certification; describe rather than rank |
 | **Perceived capture by AI companies** | Medium | We evaluate the labs we work with | Proposed independence policy, for adoption at the first board meeting: 15% cap per company (affiliates, matching gifts and in-kind at fair value included), 40% cap on industry money in total, caps tested on final revenue with a remedy, the 2027 compute-credit exemption disclosed, lab-affiliated directors barred, disclosure and review of any gift from an AI company at any size, director recusal on their own gifts, no funder review of results |
-| **Licensing and intellectual property** | Medium | Professional codes may carry copyright; volunteer work needs clear terms; the sponsor holds title to data and code until release | Licensing review before releasing EthicsMosaic; signed volunteer agreements; the open-license default adopted by board resolution; the executed sponsorship agreement's data terms |
+| **Licensing and intellectual property** | Medium | Professional codes may carry copyright; volunteer work needs clear terms; CEI owns its data and code under the sponsorship agreement | Licensing review before releasing EthicsMosaic; signed volunteer agreements; the open-license default adopted by board resolution; CEI's ownership of its intellectual property under the sponsorship agreement |
 | **A crowded field** | Medium | Gloo, the AllFaith consortium, FaithfulBench and IslamicLegalBench released faith benchmarks in 2025–26; funders may ask why another | Partner rather than duplicate; our durable asset is the open method plus independence; lead with what others lack (the say–do test against tradition-stated values, a scholar-recognized *Magnifica humanitas* module, the governance corpus); compare with peers in every paper; open the CEFE-AI conversation once v1 results exist |
 | **Public record lags the plan** | Medium | Our website is out of date (the president updates it in November 2026), and our papers and partnerships are not yet public; funders and reviewers will check | Update the website; describe accepted work accurately (conference presentations); name partners only with their agreement |
 

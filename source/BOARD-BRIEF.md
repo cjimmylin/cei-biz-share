@@ -34,7 +34,7 @@ AI will be aligned to something, and today which values the most powerful models
 
 | Tranche | Amount | What it funds |
 | --- | --- | --- |
-| 1. Foundation (the v1 core) | about $212K | Executive Director (about 60% time, sponsor-employed); part-time contract research engineer (about 500 hours); payroll taxes; technical co-lead; compute, judge validation and infrastructure; legal, accounting, insurance and ethics review; IT, travel and fundraising; Methods Committee honoraria; AI Governance validation; sponsor fee |
+| 1. Foundation (the v1 core) | about $212K | Executive Director (about 60% time, a CEI employee); part-time contract research engineer (about 500 hours); payroll taxes; technical co-lead; compute, judge validation and infrastructure; legal, accounting, insurance and ethics review; IT, travel and fundraising; Methods Committee honoraria; AI Governance validation; sponsor fee |
 | 2. Research capacity (the other two modules and the public release) | about $96K | A research fellow from mid-year; expert annotation and tradition leads; the first Scholar Group convening; sponsor fee |
 
 Awarded to date: about $7K (the DELTA sub-award), not yet received. Nothing is committed for 2027; no foundation on our list can pay before mid-2027, so Tranche 1 rests on board members, major donors and rapid-response grants: we are asking three to five people for founding-circle gifts of $10K or more by Mar 31, 2027. Founder compensation is $0 in every year. A five-year budget (v4) shows three paths: a floor ($100K in 2027, then $120K a year, which keeps the method alive with no staff), conservative ($7.7M over five years) and aggressive ($10.9M); the two funded paths reach a three-month reserve of the following year's budget by 2031.
@@ -47,7 +47,7 @@ Awarded to date: about $7K (the DELTA sub-award), not yet received. Nothing is c
 
 ## Governance
 
-- **Entity.** CEI is a California nonprofit public benefit corporation (work began in 2024; Articles approved 2026), run as a fiscally sponsored project of Social Good Fund under a Model C (pre-approved grant) agreement at 6.5% of receipts. The sponsor receives all funds and grants for CEI, employs the 2027 staff, holds title to data and code until released under open licenses, charges a fee on receipts (planned at 6%) and has final approval of legal, financial and employment matters; CEI's directors govern the corporation and set program, policy, budget requests and the leader's hiring subject to that approval. We plan to file Form 1023 in Q1 2028 and move funds, staff and data to CEI's own 501(c)(3) in mid-2029, when the board takes full control and the fee ends.
+- **Entity.** CEI is a California nonprofit public benefit corporation (work began in 2024; Articles approved 2026), run as a fiscally sponsored project of Social Good Fund under a Model C (pre-approved grant) agreement at 6.5% of receipts. The sponsor receives gifts and grants for CEI into a restricted fund and regrants them to CEI; CEI employs its own staff, owns its data and code, buys its own insurance and reports to the sponsor twice a year. CEI's directors govern the corporation: program, policy, budget and the leader's hiring. We plan to file Form 1023 in Q1 2028; once the IRS letter arrives (mid-2029), donors give to CEI directly and the fee ends.
 - **Board:** no faith requirement for any seat; the founders are Christian and say so. Seven to nine directors with an independent majority before any salaried hire; quorum a majority; terms and removal as below; finance-and-audit and governance committees; an executive session of independent directors at every meeting.
 - **Methods committee:** independent and board-chartered: secular philosophers, ML and measurement researchers and scholars of religious traditions, at least one from outside Christianity and a majority from outside it. It decides which traditions are included and how modules are scored; the board sets a decision aside only by two-thirds, after 30 days' notice and with published reasons, for a legal, contractual or budget bar.
 - **Independence (adopted as the planning basis; the board ratifies):** no more than 15% of revenue from any AI company (in-kind at fair value included) and 40% from industry in total; no funder reviews results; no badges or certifications; AI-company gifts reviewed at any size; no director may work for, lead or hold a more-than-nominal stake in a company whose models CEI evaluates.
@@ -73,7 +73,7 @@ You can expect no surprises and quarterly reports with tier status at the top; w
 
 ## Still open, stated plainly
 
-- The legal-structure statement for the board packet (the Model C agreement is executed): before the first board meeting.
+- The legal-structure statement for the board packet, from the Model C agreement issued in November 2026: before the first board meeting.
 - Bylaws with indemnification, D&O insurance and named officers: before any outside director joins.
 - A technical co-lead: named by the first board meeting. A Catholic panel for the encyclical module: being recruited; the module stays in v1 with its items labeled pilot until the panel ratifies them.
 - The president's employer's written consent to the officer and interim-leader role: to be requested before the first board meeting.
