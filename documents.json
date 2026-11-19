@@ -10,8 +10,8 @@
    "set_start": 3,
    "pages": 67,
    "words": 18382,
-   "revised": "2026-11-15",
-   "revision": "Sponsor agreement: CEI employs its own staff and owns its IP; payroll service; lighter 2029 transition",
+   "revised": "2026-11-19",
+   "revision": "Corrections: the fractional ED is a CEI employee; no gifts received yet; the DELTA money is a rapid-response sub-award",
    "live": "https://claude.ai/artifact/3zMEdHBe8wcpPRxjWDm28B",
    "pdf": "pdf/01-business-plan.pdf",
    "markdown": "https://github.com/cjimmylin/cei-biz-share/blob/main/source/BUSINESS-PLAN-2027-2029.md",
@@ -112,8 +112,8 @@
    "set_start": null,
    "pages": 122,
    "words": null,
-   "revised": "2026-11-03",
-   "revision": "Re-bound Nov 3 with every answer applied; each document starts on a right-hand page",
+   "revised": "2026-11-19",
+   "revision": "Re-bound Nov 19 with the corrected business plan; each document starts on a right-hand page",
    "live": "",
    "pdf": "pdf/CEI-plan-set.pdf",
    "markdown": "",
@@ -300,5 +300,5 @@
    "documents": "Plan, Brief, Technical brief, Budget"
   }
  ],
- "generated": "2026-11-16"
+ "generated": "2026-11-19"
 }
